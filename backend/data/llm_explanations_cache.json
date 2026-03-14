@@ -1,0 +1,782 @@
+{
+  "1-11": {
+    "target": {
+      "id": 1,
+      "name": "ولاء صايغ"
+    },
+    "match": {
+      "id": 11,
+      "name": "كريم صفوري"
+    },
+    "fieldScores": {
+      "jobTitle": 0.5462439632042133,
+      "academic": 0.6603796921980082,
+      "professional": 0.5404762301268964,
+      "personal": 0.3823442951239504
+    },
+    "rankedFields": [
+      {
+        "field": "academic",
+        "score": 0.6603796921980082
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.5462439632042133
+      },
+      {
+        "field": "professional",
+        "score": 0.5404762301268964
+      },
+      {
+        "field": "personal",
+        "score": 0.3823442951239504
+      }
+    ],
+    "reasons": [
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.6603796921980082,
+        "aText": "محاسب مرخّص لمزاولة مهنة تدقيق الحسابات.\n \n\n حاصل على لقب أول في الاقتصاد والحسابات.\n \n\n حاصل على لقب ثاني في الحسابات.\n \n\n حاصل على شهادة תעודת דירקטורים.\n \n\n حاصل على شهادة הנדסאי עיצוב מדיה.",
+        "bText": "لقب أول في الاقتصاد والإدارة – تخصص محاسبة من كلية عيمك يزراعيل\n خريج مدرسة اللاتين – الرينة"
+      },
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.5462439632042133,
+        "aText": "لقب اول وثاني في الحسابات بالاضاف الى رخصة مزاولة مهنة الحسبات + مصمم چرافيكي سابقا",
+        "bText": "مدقق حسابات"
+      }
+    ],
+    "explanation": {
+      "ar": "لديك و لكريم صفوري خلفية مشتركة في مجال المحاسبة، حيث أنك محاسب مرخّص و هو حاصل على لقب أول في الاقتصاد والإدارة – تخصص محاسبة. أنتما共تما أيضًا حبّ الحصول على شهادات أكاديمية متميزة، حيث حصلت على لقبي أول وثاني في الاقتصاد والحسابات، بينما حصل هو على لقب أول في الاقتصاد والإدارة. لديكما أيضًا رغبة مشتركة في تطوير مهاراتكما في مجالات متعددة، حيث حصلت على شهادات في تدقيق الحسابات وتصميم الوسائط، بينما تملك هو خلفية في مدرسة اللاتين – الرينة.",
+      "en": "You and Karim Safouri have a common background in accounting, as you are a licensed accountant and he holds a first degree in Economics and Management - Accounting specialization. You both also share a love for obtaining distinguished academic certificates, where you obtained first and second degrees in Economics and Accounting, while he obtained a first degree in Economics and Management. You both also have a shared desire to develop your skills in multiple areas, where you obtained certificates in auditing and media design, while he has a background from Latin School - Rayneh.",
+      "he": "אתה וכרים ספורי מחזיקים ברקע משותף בחשבונאות, שכן אתה רואה חשבון מורשה והוא מחזיק בתואר ראשון בכלכלה וניהול - התמחות בחשבונאות. שניכם גם חולקים אהבה לרכישת תעודות אקדמיות מצטיינות, שם רכשת את התואר הראשון והשני בכלכלה וחשבונאות, בעוד שהוא רכש תואר ראשון בכלכלה וניהול. שניכם גם מחזיקים ברצון משותף לפתח את המיומנויות שלכם בתחומים רבים, שם רכשת תעודות בביקורת ועיצוב מדיה, בעוד שהוא מחזיק ברקע מבית הספר הלט"
+    },
+    "match_name": {
+      "original": "كريم صفوري",
+      "en": "Karim Saffouri",
+      "he": "כרים צ'פורי"
+    }
+  },
+  "0-16": {
+    "target": {
+      "id": 0,
+      "name": "جيانا ابو نصار الياس"
+    },
+    "match": {
+      "id": 16,
+      "name": "تامر حوا"
+    },
+    "fieldScores": {
+      "jobTitle": 0.34123226367958004,
+      "academic": 0.5478637962752657,
+      "professional": 0.49575909028647197,
+      "personal": 0.49612231291033604
+    },
+    "rankedFields": [
+      {
+        "field": "academic",
+        "score": 0.5478637962752657
+      },
+      {
+        "field": "personal",
+        "score": 0.49612231291033604
+      },
+      {
+        "field": "professional",
+        "score": 0.49575909028647197
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.34123226367958004
+      }
+    ],
+    "reasons": [
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.5478637962752657,
+        "aText": "حاصلة على اللقب الأول في أنظمة المعلومات من جامعة حيفا، مع تركيز على تحليل البيانات، البرمجة، وأمن المعلومات.\n \n\n طالبة لقب ثانٍ في علوم الإدارة بتخصّص تكنولوجيا وأنظمة المعلومات.",
+        "bText": "لقب أول (B.Sc.) في الهندسة الكهربائية من جامعة تل أبيب، مع تخصصات في البرمجة، الأنظمة المدمجة، وهندسة الحاسوب.\n شارك في مشاريع أكاديمية وتطبيقية بارزة، منها:\n \n\n تطوير نظام ملاحة ذكي لطائرة بدون طيار باستخدام تقنيات الذكاء الاصطناعي ورؤية الحاسوب (YOLO وOpenCV).\n \n\n تطوير تطبيق أندرويد للتواصل الفوري مشابه لتطبيق WhatsApp.\n انخرط في برامج ريادة أعمال جامعية، مما أتاح له التعرف على عالم الابتكار التكنولوجي وعرض مشاريع ناشئة أمام مستثمرين.\n من مؤسسي حركات طلابية لدعم الأقليات في الجامعة."
+      },
+      {
+        "field": "personal",
+        "fieldLabel": "Personal Resume",
+        "score": 0.49612231291033604,
+        "aText": "تحب السفر واكتشاف ثقافات وأماكن جديدة.\n \n\n تتابع بشغف عالم التكنولوجيا والتطوّرات الحديثة.\n \n\n تهوى الموسيقى والرقص بجميع أنواعهما.\n \n\n تهتم بـعالم الأزياء والموضة.\n \n\n تستمتع بـقضاء الوقت مع العائلة والأصدقاء.",
+        "bText": "شغوف بالتاريخ، السياسة، والفكر الاشتراكي، ويعتبر هذه المواضيع أدوات لفهم المجتمع وتحقيق التغيير.\n يحرص على التطوير الذاتي من خلال القراءة، التأمل، وتنمية مهارات القيادة واتخاذ القرار.\n هاوٍ لركوب الأمواج، كرة القدم، والتمارين الرياضية في صالة الجيم.\n يستمتع بالاستماع إلى الموسيقى الكلاسيكية.\n شخصية اجتماعية، يحب التفاعل والمشاركة في الأنشطة والحوارات الفكرية."
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تشترك مع تامر حوا في اهتمام بالبرمجة، حيث درست البرمجة ضمن لقبك الأول في أنظمة المعلومات، وكذلك شارك تامر في مشاريع برمجة مختلفة مثل تطوير تطبيق أندرويد للتواصل الفوري. لديكما أيضاً خلفية مشتركة في مجال تكنولوجيا وأنظمة المعلومات، حيث تدرس علوم الإدارة بتخصص تكنولوجيا وأنظمة المعلومات، ودرس تامر هندسة كهربائية مع تخصصات في هندسة الحاسوب. أنتما تتشاركان أيضا في الاهتمام بالمشاريع الأكاديمية والتطبيقية، حيث شارك تامر في تطوير نظام ملاحة ذكي لطائرة بدون طيار، وقد استفادت أنت أيضاً من دراستك في مشاريع أكاديمية مختلفة.",
+      "en": "You share with Tamer Hawa an interest in programming, where you studied programming as part of your first degree in Information Systems, and Tamer also participated in various programming projects such as developing an Android application for instant messaging. You both also have a common background in the field of technology and information systems, where you study Management Science with a specialization in Technology and Information Systems, and Tamer studied Electrical Engineering with specializations in Computer Engineering. You both also share an interest in academic and applied projects, where Tamer participated in the development of an intelligent navigation system for an unmanned aerial vehicle, and you also benefited from your studies in various academic projects.",
+      "he": "את/ה חולק/ת עם תאמר חאווה עניין בתכנות, שם למדת תכנות כחלק מהתואר הראשון שלך במערכות מידע, ותאמר גם השתתף בפרויקטים שונים של תכנות כגון פיתוח אפליקציה ל-Android למסרים מיידיים. שניכם גם חולקים רקע משותף בתחום הטכנולוגיה ומערכות המידע, שם לומד/ת מדעי הניהול עם התמחות בטכנולוגיה ומערכות מידע, ותאמר למד הנדסת חשמל עם התמחויות בהנדסת מחשבים. שניכם גם חולקים עניין בפרויקטים אקדמיים ויישומיים, שם תאמר השתת"
+    },
+    "match_name": {
+      "original": "تامر حوا",
+      "en": "Tamer Hawa",
+      "he": "תאמר חווה"
+    }
+  },
+  "0-37": {
+    "target": {
+      "id": 0,
+      "name": "جيانا ابو نصار الياس"
+    },
+    "match": {
+      "id": 37,
+      "name": "علاء الصفدي"
+    },
+    "fieldScores": {
+      "jobTitle": 0.5829791200598207,
+      "academic": 0.6928978374822988,
+      "professional": 0.487363818948221,
+      "personal": 0.3325977586628452
+    },
+    "rankedFields": [
+      {
+        "field": "academic",
+        "score": 0.6928978374822988
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.5829791200598207
+      },
+      {
+        "field": "professional",
+        "score": 0.487363818948221
+      },
+      {
+        "field": "personal",
+        "score": 0.3325977586628452
+      }
+    ],
+    "reasons": [
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.6928978374822988,
+        "aText": "حاصلة على اللقب الأول في أنظمة المعلومات من جامعة حيفا، مع تركيز على تحليل البيانات، البرمجة، وأمن المعلومات.\n \n\n طالبة لقب ثانٍ في علوم الإدارة بتخصّص تكنولوجيا وأنظمة المعلومات.",
+        "bText": "حاصل على لقب اول بعلم الحاسوب باختصاص الذكاء الصناعي من جامعة حيفا.\n حاصل على الكثير من الشهادات في مجال البرمجة."
+      },
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.5829791200598207,
+        "aText": "Software QA Engineer",
+        "bText": "مبرمج"
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تملك خلفية قوية في أنظمة المعلومات وعلوم الإدارة، وهذا يتوافق مع خبرة علاء الصفدي في علم الحاسوب و特别 في مجال الذكاء الصناعي. لديكما اهتمام مشترك بالبرمجة، حيث تتمتعين بتجربة في تحليل البيانات والبرمجة، ويتوافق ذلك مع الشهادات التي حصل عليها في مجال البرمجة. أنتما تتشابهان في التركيز على التكنولوجيا وتحليل البيانات، مما يعزز فرصة للتعاون والاستفادة المتبادلة.",
+      "en": "You have a strong background in information systems and management sciences, which aligns with Alaa Al-Safadi's expertise in computer science, particularly in the field of artificial intelligence. You both share an interest in programming, where you have experience in data analysis and programming, which corresponds to the certifications he has obtained in the field of programming. You both focus on technology and data analysis, which enhances the opportunity for cooperation and mutual benefit.",
+      "he": "יש לך רקע חזק במערכות מידע ומדעי ניהול, התואם את התמחותו של עלאא אל-ספאדי במדעי המחשב, במיוחד בתחום הבינה המלאכותית. שניכם חולקים עניין בתכנות, שם יש לך ניסיון בניתוח נתונים ותכנות, המתאים לתעודות שהוא קיבל בתחום התכנות. שניכם מתמקדים בטכנולוגיה וניתוח נתונים, מה שמשפר את ההזדמנות לשיתוף פעולה ותועלת הדדית."
+    },
+    "match_name": {
+      "original": "علاء الصفدي",
+      "en": "Alaa Al-Safadi",
+      "he": "עלאא א-ספדי"
+    }
+  },
+  "0-24": {
+    "target": {
+      "id": 0,
+      "name": "جيانا ابو نصار الياس"
+    },
+    "match": {
+      "id": 24,
+      "name": "مهدي كبها"
+    },
+    "fieldScores": {
+      "jobTitle": 0.6089239230363359,
+      "academic": 0.6320202747879278,
+      "professional": 0.3631399784354225,
+      "personal": 0.4275089470392449
+    },
+    "rankedFields": [
+      {
+        "field": "academic",
+        "score": 0.6320202747879278
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.6089239230363359
+      },
+      {
+        "field": "personal",
+        "score": 0.4275089470392449
+      },
+      {
+        "field": "professional",
+        "score": 0.3631399784354225
+      }
+    ],
+    "reasons": [
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.6320202747879278,
+        "aText": "حاصلة على اللقب الأول في أنظمة المعلومات من جامعة حيفا، مع تركيز على تحليل البيانات، البرمجة، وأمن المعلومات.\n \n\n طالبة لقب ثانٍ في علوم الإدارة بتخصّص تكنولوجيا وأنظمة المعلومات.",
+        "bText": "حاصل على لقب أول (B.Sc) في هندسة البرمجيات من جامعة حيفا.\n \n\n \n\n حاصل على لقب أول (LL.B) في الحقوق من جامعة حيفا.\n \n\n محامي مسجل في نقابة المحاميين لواء حيفا\n حاصل على شهادة PMP في إدارة المشاريع من دبي (2022)\n أكمل دورة في القيادة والخطابة العامة من جامعة مونتانا (2017)"
+      },
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.6089239230363359,
+        "aText": "Software QA Engineer",
+        "bText": "محامي ومهندس برمجيات | Co-Founder"
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تتقاسم مع مهدي كبها اهتمامًا مشتركًا بالبرمجة، حيث تملك أنت خلفية في تحليل البيانات والبرمجة من جامعة حيفا، وهو حاصل على لقب أول في هندسة البرمجيات من نفس الجامعة. يوجد بينكما تشابه في التعليم الجامعي من جامعة حيفا، التي توفّر خلفية قوية في مجالات التكنولوجيا. يُضاف إلى ذلك أن مهدي كبها حاصل على شهادات إضافية في إدارة المشاريع والقيادة، مما قد يساهم في تعزيز فهمك لمجالات تكنولوجيا المعلومات والأنظمة.",
+      "en": "You share with Mehdi Kabha a mutual interest in programming, where you have a background in data analysis and programming from the University of Haifa, and he holds a first-place title in software engineering from the same university. There is a similarity between you in university education from the University of Haifa, which provides a strong background in technology fields. Additionally, Mehdi Kabha holds additional certifications in project management and leadership, which may contribute to enhancing your understanding of information technology and systems fields.",
+      "he": "את/ה חולק/ת עם מהדי קבהה עניין משותף בתכנות, שם יש לך רקע בניתוח נתונים ותכנות מאוניברסיטת חיפה, והוא מחזיק בתואר הראשון בהנדסת תוכנה מאותה האוניברסיטה. יש דמיון ביניכם בהשכלה האוניברסיטאית מאוניברסיטת חיפה, שמספקת רקע חזק בתחומי הטכנולוגיה. בנוסף, מהדי קבהה מחזיק בתעודות נוספות בניהול פרויקטים ומנהיגות, שעשויות לתרום לשיפור הבנתך את תחומי הטכנולוגיה והמערכות."
+    },
+    "match_name": {
+      "original": "مهدي كبها",
+      "en": "Mehdi Kabha",
+      "he": "מהדי כבהא"
+    }
+  },
+  "0-1": {
+    "target": {
+      "id": 0,
+      "name": "جيانا ابو نصار الياس"
+    },
+    "match": {
+      "id": 1,
+      "name": "ولاء صايغ"
+    },
+    "fieldScores": {
+      "jobTitle": 0.47301973089049343,
+      "academic": 0.46116251551338877,
+      "professional": 0.3627451600830095,
+      "personal": 0.6836105362534691
+    },
+    "rankedFields": [
+      {
+        "field": "personal",
+        "score": 0.6836105362534691
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.47301973089049343
+      },
+      {
+        "field": "academic",
+        "score": 0.46116251551338877
+      },
+      {
+        "field": "professional",
+        "score": 0.3627451600830095
+      }
+    ],
+    "reasons": [
+      {
+        "field": "personal",
+        "fieldLabel": "Personal Resume",
+        "score": 0.6836105362534691,
+        "aText": "تحب السفر واكتشاف ثقافات وأماكن جديدة.\n \n\n تتابع بشغف عالم التكنولوجيا والتطوّرات الحديثة.\n \n\n تهوى الموسيقى والرقص بجميع أنواعهما.\n \n\n تهتم بـعالم الأزياء والموضة.\n \n\n تستمتع بـقضاء الوقت مع العائلة والأصدقاء.",
+        "bText": "شغف بالطبيعة، الهايكنج والسفر لاكتشاف ثقافات جديدة.\n \n\n التصوير واستكشاف الأماكن من خلال الكاميرا.\n \n\n متابعة الأفلام كهواية مفضلة.\n \n\n ممارسة رياضة التنس والسباحة بانتظام.\n \n\n حب التعرّف على أشخاص جدد وبناء علاقات في مختلف الأطر."
+      },
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.47301973089049343,
+        "aText": "Software QA Engineer",
+        "bText": "لقب اول وثاني في الحسابات بالاضاف الى رخصة مزاولة مهنة الحسبات + مصمم چرافيكي سابقا"
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تحب السفر واكتشاف ثقافات وأماكن جديدة، وهذا يطابق شغف المشارك المقترح ولاء صايغ بالسفر لاكتشاف ثقافات جديدة. لديكما شغف مشترك باكتشاف الأماكن الجديدة، وهذا قد يفتح المجال لمناقشات مثيرة ومعلومات قيمة. أنتما تتقاسمان حب استكشاف العالم من حولكما، وهذا يخلق فرصة لتبادل الخبرات والتجارب.",
+      "en": "You love traveling and discovering new cultures and places, and this matches the proposed participant Loai Sayegh's passion for traveling to discover new cultures. You both share a passion for discovering new places, and this could open up exciting discussions and valuable information. You both share a love for exploring the world around you, and this creates an opportunity for exchanging experiences and experiences.",
+      "he": "אתה אוהב לטייל ולגלות תרבויות ומקומות חדשים, וזה תואם את התשוקה של המשתתף המוצע Loai Sayegh לטייל כדי לגלות תרבויות חדשות. שניכם חולקים תשוקה לגלות מקומות חדשים, וזה יכול לפתוח דלתות לדיונים מרגשים ומידע יקר. שניכם חולקים אהבה לחקור את העולם סביבכם, וזה יוצר הזדמנות לחלוקת חוויות וניסיונות."
+    },
+    "match_name": {
+      "original": "ولاء صايغ",
+      "en": "Wala Saigh",
+      "he": "ולאא צייג'"
+    }
+  },
+  "0-45": {
+    "target": {
+      "id": 0,
+      "name": "جيانا ابو نصار الياس"
+    },
+    "match": {
+      "id": 45,
+      "name": "شادي ابو عبيد"
+    },
+    "fieldScores": {
+      "jobTitle": 0.652814748517972,
+      "academic": 0.3451874643121535,
+      "professional": 0.6040952579849489,
+      "personal": 0.4818958535641529
+    },
+    "rankedFields": [
+      {
+        "field": "jobTitle",
+        "score": 0.652814748517972
+      },
+      {
+        "field": "professional",
+        "score": 0.6040952579849489
+      },
+      {
+        "field": "personal",
+        "score": 0.4818958535641529
+      },
+      {
+        "field": "academic",
+        "score": 0.3451874643121535
+      }
+    ],
+    "reasons": [
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.652814748517972,
+        "aText": "Software QA Engineer",
+        "bText": "مهندس برمجيات"
+      },
+      {
+        "field": "professional",
+        "fieldLabel": "Professional Resume",
+        "score": 0.6040952579849489,
+        "aText": "تعمل في شركة NVIDIA كـمهندسة ضمان جودة (QA Engineer).\n \n\n تعمل على نظام التشغيل الخاص بالمبدّلات (Switches Operating Systems).\n \n\n تطوّر اختبارات أوتوماتيكية بلغة Python بهدف تحسين جودة وتغطية الفحوصات.\n \n\n تشارك في مشروع NVLink، أحد أضخم مشاريع NVIDIA، وهو بروتوكول شبكات متقدّم يتيح تواصلًا فائق السرعة بين وحدة المعالجة المركزية (CPU) ووحدة معالجة الرسومات (GPU).\n \n\n مسؤولة عن المرحلة الأخيرة قبل وصول المنتج للزبون، بهدف ضمان أعلى جودة ممكنة وخلوّ المنتج من الأخطاء.\n \n\n خلال فترة دراستها، عملت في شركة Teva بوظيفة مبرمجة (وظيفة طالب).",
+        "bText": "يعمل في شركة Intel وقائد فريق مبرمجين في مجال CPU Validation Tools."
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تعمل في مجال هندسة البرمجيات، وهذا ي trùng مع عمل شادي ابو عبيد الذي يعتبر مهندس برمجيات أيضًا. أنتما تتشابهان في عملكما كمهندسين برمجيات، وهذا يعزز التواصل بينكما. أنتما تقاسمان نفس الاهتمامات في مجال هندسة البرمجيات.",
+      "en": "You work in the field of software engineering, which coincides with the work of Shadi Abu Obaid, who is also a software engineer. You both resemble each other in your work as software engineers, and this enhances communication between you. You both share the same interests in the field of software engineering.",
+      "he": "אתה עובד בתחום הנדסת תוכנה, שחופף עם עבודתו של שאדי אבו עובייד, שהוא גם מהנדס תוכנה. שניכם דומים זה לזה בעבודתכם כמהנדסי תוכנה, וזה משפר את התקשורת ביניכם. שניכם חולקים את אותם התחומי עניין בתחום הנדסת התוכנה."
+    },
+    "match_name": {
+      "original": "شادي ابو عبيد",
+      "en": "Shadi Abu Obaid",
+      "he": "שאדי אבו עבייד"
+    }
+  },
+  "1-22": {
+    "target": {
+      "id": 1,
+      "name": "ولاء صايغ"
+    },
+    "match": {
+      "id": 22,
+      "name": "نعيم ابو العلا"
+    },
+    "fieldScores": {
+      "jobTitle": 0.5462439632042133,
+      "academic": 0.5178441724302011,
+      "professional": 0.5500337977321471,
+      "personal": 0.39840487899599386
+    },
+    "rankedFields": [
+      {
+        "field": "professional",
+        "score": 0.5500337977321471
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.5462439632042133
+      },
+      {
+        "field": "academic",
+        "score": 0.5178441724302011
+      },
+      {
+        "field": "personal",
+        "score": 0.39840487899599386
+      }
+    ],
+    "reasons": [
+      {
+        "field": "professional",
+        "fieldLabel": "Professional Resume",
+        "score": 0.5500337977321471,
+        "aText": "Assurance Manager في شركة PwC – حيفا، بخبرة تقارب أربع سنوات في تدقيق الحسابات والـ Digital Audit.\n \n\n محاضر مساعد لمادة الحسابات في كلية عيمك يزراعيل.\n \n\n خبرة سابقة في مجالات التصميم الغرافيكي، التصوير، تحرير الفيديو وتصميم المواقع.",
+        "bText": "يعمل في مكتب المحاسبة التابع للشبكة العالمية KPMG סומך חייקין في تل ابيب\n يعمل كمحاسب مستقل لتوفير خدمات المحاسبة والامتثال للسلطات الضريبية وغيرها للافراد والشركات الصغيرة"
+      },
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.5462439632042133,
+        "aText": "لقب اول وثاني في الحسابات بالاضاف الى رخصة مزاولة مهنة الحسبات + مصمم چرافيكي سابقا",
+        "bText": "مدقق حسابات"
+      }
+    ],
+    "explanation": {
+      "ar": "تجد أنك تعمل مع نعيم ابو العلا في مجال استشارات المحاسبة، حيث يجمع بينكما خبرة في مجال تدقيق الحسابات والامتثال الضريبي. لديك خبرة في مجال Digital Audit، بينما يعمل نعيم كمحاسب مستقل لتوفير خدمات المحاسبة والامتثال، مما يخلق فرصًا للتعاون في المشاريع المتعلقة بالمحاسبة والتدقيق. يوجد بينكما تشابه في الخلفية المهنية، حيث تعمل انت في شركة PwC ونعيم في KPMG، وهذا يفتح المجال لتبادل الخبرات والمعرفة في مجال المحاسبة.",
+      "en": "You find yourself working with Naeem Abu Al-Ala in the field of accounting consulting, where your combined experience in auditing and tax compliance comes together. You have expertise in the field of Digital Audit, while Naeem works as an independent accountant to provide accounting and compliance services, creating opportunities for collaboration on accounting and auditing projects. There is a similarity between your professional backgrounds, as you work at PwC and Naeem at KPMG, which opens up the possibility of exchanging experiences and knowledge in the field of accounting.",
+      "he": "אתה מוצא את עצמך עובד עם נעים אבו אל-עלא בתחום ייעוץ חשבונאי, שם ניסיונכם המשולב בביקורת והתאמה למס נפגש. יש לך מומחיות בתחום האודיט הדיגיטלי, בעוד נעים עובד כרואה חשבון עצמאי כדי לספק שירותי חשבונאות והתאמה, ויוצר הזדמנויות לשיתוף פעולה בפרויקטים של חשבונאות ואודיט. יש דמיון בין רקעיכם המקצועי, כיוון שאתה עובד ב- PwC ונעים ב- KPMG, מה שפותח את האפשרות לחלוקת ניסיון וידע בתחום החשבונאות."
+    },
+    "match_name": {
+      "original": "نعيم ابو العلا",
+      "en": "Naeim Abu Alala",
+      "he": "נעים אבו אלעלא"
+    }
+  },
+  "5-12": {
+    "target": {
+      "id": 5,
+      "name": "ريجينا جريس"
+    },
+    "match": {
+      "id": 12,
+      "name": "سمر بشير"
+    },
+    "fieldScores": {
+      "jobTitle": 0.564678186616496,
+      "academic": 0.7348639154042301,
+      "professional": 0.5061556931716039,
+      "personal": 0.4681365848371099
+    },
+    "rankedFields": [
+      {
+        "field": "academic",
+        "score": 0.7348639154042301
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.564678186616496
+      },
+      {
+        "field": "professional",
+        "score": 0.5061556931716039
+      },
+      {
+        "field": "personal",
+        "score": 0.4681365848371099
+      }
+    ],
+    "reasons": [
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.7348639154042301,
+        "aText": "لقب اول في موضوع الصيدلة – الجامعة العبرية بالقدس.\n \n\n لقب ثاني في موضوع إدارة الأنظمة الصحية – جامعة حيفا.\n \n\n شهادة GCP – جامعة حيفا.\n \n\n شهادة \"كنابيس طبي\" – التخنيون.\n \n\n لقب ثاني في موضوع صيدلة إكلينيكية سريرية – جامعة بن غوريون.",
+        "bText": "بكالوريوس في التّمريض (B.S.N) من الجامعة العبريّة في القدس.\n \n\n ماجستير في الصّحّة العامّة (M.P.H) – تخصّص إدارة نظم الرّعاية الصّحّيّة، جامعة حيفا.\n \n\n شهادة برامديك طب طوارئ متقدّم (EMT-P) – الجامعة العبريّة في القدس ومنظّمة نجمة داوود الحمراء.\n \n\n دورة اختصاص في طبّ الطّوارئ – مستشفى رمبام، شملت التّعامل مع الحالات الحرجة، إدارة الأولويّات، والمهارات السّريرية الفوريّة."
+      },
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.564678186616496,
+        "aText": "صيدلانية",
+        "bText": "برامديك+ ممرّضة طبّ طوارئ"
+      }
+    ],
+    "explanation": {
+      "ar": "تجد أن بينك وبين سمر بشير تشابهًا في الخلفية الأكاديمية الصحية، حيث حازت على لقب أول في موضوع الصيدلة من الجامعة العبرية بالقدس، وهو نفس المكان الذي حصلت منه سمر على شهادة في التمريض. يوجد أيضًا تشابه في الاهتمام بنظم الرعاية الصحية، حيث حازت على لقب ثاني في إدارة الأنظمة الصحية من جامعة حيفا، وهي نفس الجامعة التي حصلت منها سمر على ماجستير في الصحة العامة بتخصص إدارة نظم الرعاية الصحية. كذلك، يظهر تشابه في الاهتمام بالصحة السريرية، حيث حازت على لقب ثاني في صيدلة إكلينيكية سريرية من جامعة بن غوريون، وهو مجال قريب من اختصاص سمر في طب الطوارئ.",
+      "en": "You find that you have a similar background in health academics with Somar Bashir, where she earned a first degree in pharmacy from the Hebrew University of Jerusalem, the same place where Somar earned a degree in nursing. There is also a similarity in interest in healthcare systems, where she earned a second degree in health systems management from the University of Haifa, the same university from which Somar earned a master's degree in public health with a specialization in healthcare systems management. Also, a similarity appears in interest in clinical health, where she earned a second degree in clinical pharmacy from Ben-Gurion University, a field close to Somar's specialty in emergency medicine.",
+      "he": "מוצאים שיש לך רקע דומה בתחום האקדמיה הבריאותית עם סומר בשיר, שם היא רכשה תואר ראשון ברוקחות מאוניברסיטת העברית בירושלים, אותו המקום בו סומר רכשה תואר בסיעוד. יש גם דמיון בעניין במערכות בריאות, שם היא רכשה תואר שני בניהול מערכות בריאות מאוניברסיטת חיפה, אותה אוניברסיטה ממנה סומר רכשה תואר שני בבריאות הציבור עם התמחות בניהול מערכות בריאות. כמו כן, דמיון מופיע גם בעניין בבריאות קלינית, שם היא רכשה תואר שני ברוקחות קל"
+    },
+    "match_name": {
+      "original": "سمر بشير",
+      "en": "Sumar Bashir",
+      "he": "סמר בשיר"
+    }
+  },
+  "5-43": {
+    "target": {
+      "id": 5,
+      "name": "ريجينا جريس"
+    },
+    "match": {
+      "id": 43,
+      "name": "محمد طيبي"
+    },
+    "fieldScores": {
+      "jobTitle": 0.6868417364589334,
+      "academic": 0.4754435836015174,
+      "professional": 0.4994621481584281,
+      "personal": 0.5104882881548947
+    },
+    "rankedFields": [
+      {
+        "field": "jobTitle",
+        "score": 0.6868417364589334
+      },
+      {
+        "field": "personal",
+        "score": 0.5104882881548947
+      },
+      {
+        "field": "professional",
+        "score": 0.4994621481584281
+      },
+      {
+        "field": "academic",
+        "score": 0.4754435836015174
+      }
+    ],
+    "reasons": [
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.6868417364589334,
+        "aText": "صيدلانية",
+        "bText": "طبيب"
+      },
+      {
+        "field": "personal",
+        "fieldLabel": "Personal Resume",
+        "score": 0.5104882881548947,
+        "aText": "شغف بالسفر والمغامرات، مع اهتمام خاص باكتشاف الثقافات واللغات.\n \n\n اهتمام بالرياضة، التمارين، والحفاظ على نمط حياة صحي.\n \n\n شغف بالطبخ بأسلوب إبداعي بعيد عن الوصفات الجاهزة.\n \n\n شخصية قيادية منذ سن مبكرة.\n \n\n حب للتطور، التقدم، وتحقيق الإنجازات.",
+        "bText": "يتطوّع في مجتمع “هارموني” ضمن فريق التعاونات.\n لديه شغف كبير في السفر واستكشاف اماكن غير اعتيادية.\n مهتم في الابتكارات التقنية وعلوم البيانات.\n يلعب التنس ويجمع العملات الورقية والمعدنية."
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تملك خلفية في مجال الصحة كصيدلانية، ومع محمد طيبي، ستجد تشابهًا في الاهتمام بالصحة العامة. أنتما تتشاركان في مجال العمل نفسه، وهو ما يمكن أن يفتح مجالات حوار وتبادل خبرات حول التحديات والفرص في هذا القطاع. أنتما تعملان معًا في نفس المجال العام، مما يتيح لكما فهمًا أعمق للتحديات الطبية والصيدلانية التي تواجهها.",
+      "en": "You have a background in the field of health as a pharmacist, and with Muhammad Tayyibi, you will find a similarity in interest in public health. You both share the same field of work, which can open up areas of dialogue and exchange of experiences about the challenges and opportunities in this sector. You both work together in the same public field, which allows you to have a deeper understanding of the medical and pharmaceutical challenges you face.",
+      "he": "יש לך רקע בתחום הבריאות כרוקח, ועם מוחמד טייבי, תמצא דמיון בעניין בבריאות הציבור. שניכם חולקים את אותו תחום עבודה, שיכול לפתוח אזורים של דיאלוג וחילופי חוויות על האתגרים וההזדמנויות בתחום זה. שניכם עובדים ביחד באותו תחום ציבורי, מה שמאפשר לכם להבין עמוק יותר את האתגרים הרפואיים והרוקחיים שאתם פוגשים."
+    },
+    "match_name": {
+      "original": "محمد طيبي",
+      "en": "Mohammad Tayyebi",
+      "he": "מוחמד טייבי"
+    }
+  },
+  "4-5": {
+    "target": {
+      "id": 5,
+      "name": "ريجينا جريس"
+    },
+    "match": {
+      "id": 4,
+      "name": "زينب حسن"
+    },
+    "fieldScores": {
+      "jobTitle": 0.4051751445966635,
+      "academic": 0.5931176815082192,
+      "professional": 0.5212433017184981,
+      "personal": 0.6281762317747286
+    },
+    "rankedFields": [
+      {
+        "field": "personal",
+        "score": 0.6281762317747286
+      },
+      {
+        "field": "academic",
+        "score": 0.5931176815082192
+      },
+      {
+        "field": "professional",
+        "score": 0.5212433017184981
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.4051751445966635
+      }
+    ],
+    "reasons": [
+      {
+        "field": "personal",
+        "fieldLabel": "Personal Resume",
+        "score": 0.6281762317747286,
+        "aText": "شغف بالسفر والمغامرات، مع اهتمام خاص باكتشاف الثقافات واللغات.\n \n\n اهتمام بالرياضة، التمارين، والحفاظ على نمط حياة صحي.\n \n\n شغف بالطبخ بأسلوب إبداعي بعيد عن الوصفات الجاهزة.\n \n\n شخصية قيادية منذ سن مبكرة.\n \n\n حب للتطور، التقدم، وتحقيق الإنجازات.",
+        "bText": "تحب السفر والتعرّف على حضارات وثقافات جديدة، وتؤمن أن الإصغاء لقصص وتجارب الناس يوسّع آفاقها ورؤيتها.\n \n\n شغوفة بالفن بجميع أشكاله، وخاصة الموسيقى، وتحب اكتشاف أنماط موسيقية من مختلف أنحاء العالم.\n \n\n تحب الموضة والستايل وتنسيق الألوان، وحاصلة على شهادة ستايلينغ منذ عمر 18.\n \n\n تستمتع بالبحث والنقاش في مجالات الفلسفة، التاريخ، السياسة، والعلوم الاجتماعية."
+      },
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.5931176815082192,
+        "aText": "لقب اول في موضوع الصيدلة – الجامعة العبرية بالقدس.\n \n\n لقب ثاني في موضوع إدارة الأنظمة الصحية – جامعة حيفا.\n \n\n شهادة GCP – جامعة حيفا.\n \n\n شهادة \"كنابيس طبي\" – التخنيون.\n \n\n لقب ثاني في موضوع صيدلة إكلينيكية سريرية – جامعة بن غوريون.",
+        "bText": "طالبة ماجستير (M.A.) في علم الاجتماع – جامعة تل أبيب\n \n\n تخصص: الأنثروبولوجيا الثقافية والاجتماعية.\n \n\n أنهت كتابة أطروحة بحثية حول هجرة أفراد من مجتمع الميم الفلسطيني.\n \n\n بكالوريوس (B.A.) في إدارة الأعمال وعلم الاجتماع – جامعة تل أبيب\n \n\n تخصص مزدوج."
+      }
+    ],
+    "explanation": {
+      "ar": "تشارك مع زينب حسن شغفًا بالسفر والتعرّف على ثقافات جديدة، حيث يمكنكما استكشاف عوالم مختلفة معًا. تتقاسم اهتمامًا بتحقيق الإنجازات وتوسيع آفاق المعرفة، مما قد يفتح لكما فرصًا لتبادل الخبرات والرؤى. تتمتعان بروح المغامرة والاستكشاف، مما يمكن أن يؤدي إلى تجارب شيقة ومثيرة في حياتكما.",
+      "en": "You share with Zainab Hassan a passion for travel and exploring new cultures, where you can explore different worlds together. You both have an interest in achieving accomplishments and expanding the horizons of knowledge, which may open up opportunities for you to exchange experiences and insights. You both possess a spirit of adventure and exploration, which can lead to exciting and thrilling experiences in your lives.",
+      "he": "את/ה חולק/ת עם זיינב חסן תשוקה לנסיעות ולחקירת תרבויות חדשות, שם את/ה יכול/ה לחקור עולמות שונים ביחד. שניכם יש לכם עניין בהשגת הישגים ובהרחבת גבולות הידע, מה שעלול לפתוח בפניכם הזדמנויות לחלוקת חוויות ותובנות. שניכם מחזיקים ברוח של הרפתקאות וחקירה, שיכולה להוביל לחוויות מרגשות ומתרגשות בחייכם."
+    },
+    "match_name": {
+      "original": "زينب حسن",
+      "en": "Zainab Hassan",
+      "he": "זינב חסן"
+    }
+  },
+  "5-32": {
+    "target": {
+      "id": 5,
+      "name": "ريجينا جريس"
+    },
+    "match": {
+      "id": 32,
+      "name": "نادية ابو عطا"
+    },
+    "fieldScores": {
+      "jobTitle": 0.5101633869166252,
+      "academic": 0.5491774371891545,
+      "professional": 0.5098305602489619,
+      "personal": 0.5543995290112136
+    },
+    "rankedFields": [
+      {
+        "field": "personal",
+        "score": 0.5543995290112136
+      },
+      {
+        "field": "academic",
+        "score": 0.5491774371891545
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.5101633869166252
+      },
+      {
+        "field": "professional",
+        "score": 0.5098305602489619
+      }
+    ],
+    "reasons": [
+      {
+        "field": "personal",
+        "fieldLabel": "Personal Resume",
+        "score": 0.5543995290112136,
+        "aText": "شغف بالسفر والمغامرات، مع اهتمام خاص باكتشاف الثقافات واللغات.\n \n\n اهتمام بالرياضة، التمارين، والحفاظ على نمط حياة صحي.\n \n\n شغف بالطبخ بأسلوب إبداعي بعيد عن الوصفات الجاهزة.\n \n\n شخصية قيادية منذ سن مبكرة.\n \n\n حب للتطور، التقدم، وتحقيق الإنجازات.",
+        "bText": "تتطوّع في مجتمع “هارموني” ضمن فريق الفعاليات.\n متطلعة وقارئة في التاريخ، الاقتصاد والرياضة. تحب قضاء الوقت في الهواء الطلق.\n منظمة مجتمعية بكل شغف من خلال الفعاليات الثقافية الاجتماعية."
+      },
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.5491774371891545,
+        "aText": "لقب اول في موضوع الصيدلة – الجامعة العبرية بالقدس.\n \n\n لقب ثاني في موضوع إدارة الأنظمة الصحية – جامعة حيفا.\n \n\n شهادة GCP – جامعة حيفا.\n \n\n شهادة \"كنابيس طبي\" – التخنيون.\n \n\n لقب ثاني في موضوع صيدلة إكلينيكية سريرية – جامعة بن غوريون.",
+        "bText": "حاصلة على لقب اول في علوم التغذية من الجامعة العبرية في القدس.\n حاصلة على شهادتي ترخيص ومزاولة المهنة من وزارة الصحة كأخصائية تغذية وفنية مختبر أكاديمية.\n حاصلة على شهادة مدربة رياضية شخصية من معهد فينجيت.\n حائزة على عدة جوائز, بما في ذلك جائزة المتطوع المتميز من برنامج بيرح, جائزة الخدمة في مكافحة جائحة كوفيد-19 من وزارة الصحة, جائزة الخدمة المتميزة من خدمات صحة مكابي وجائزة متطوعة العام من مجتمع هارموني."
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تشترك مع نادية ابو عطا في حب قضاء الوقت في الهواء الطلق، مما يشير إلى وجود مشترك في حب المغامرات والاستكشاف. لديكما شغف مشترك بالشؤون الاجتماعية والثقافية، حيث تتميز أنت بشغفك باكتشاف الثقافات واللغات، بينما تتطوع نادية ابو عطا في الفعاليات الثقافية الاجتماعية. تتمتعان كذلك بمهارات قيادية واهتمام بالتطور والتقدم، مما يسهل التعاون والتواصل بينكما.",
+      "en": "You share with Nadia Abu Attah a love for spending time outdoors, indicating a shared passion for adventure and exploration. You both have a passion for social and cultural affairs, with you being enthusiastic about discovering cultures and languages, while Nadia Abu Attah volunteers in social and cultural events. You both also possess leadership skills and an interest in development and progress, which facilitates cooperation and communication between you.",
+      "he": "אתה חולק עם נאדיה אבו עטה אהבה לבלות זמן בחוץ, מרמז על תשוקה משותפת להרפתקאות וחקירה. שניכם בעלי תשוקה לעניינים חברתיים ותרבותיים, כאשר אתה נלהב לגלות תרבויות ושפות, בעוד נאדיה אבו עטה מתנדבת באירועים חברתיים ותרבותיים. שניכם גם מחזיקים בכישורי הנהגה ובעניין בפיתוח וקידמה, מה שמקל על שיתוף פעולה ותקשורת ביניכם."
+    },
+    "match_name": {
+      "original": "نادية ابو عطا",
+      "en": "Nadia Abu Atta",
+      "he": "נאדיה אבו עטא"
+    }
+  },
+  "1-15": {
+    "target": {
+      "id": 15,
+      "name": "جورج شقحة"
+    },
+    "match": {
+      "id": 1,
+      "name": "ولاء صايغ"
+    },
+    "fieldScores": {
+      "jobTitle": 0.48837391763601434,
+      "academic": 0.5012605532206001,
+      "professional": 0.31401360213668333,
+      "personal": 0.2829262011157502
+    },
+    "rankedFields": [
+      {
+        "field": "academic",
+        "score": 0.5012605532206001
+      },
+      {
+        "field": "jobTitle",
+        "score": 0.48837391763601434
+      },
+      {
+        "field": "professional",
+        "score": 0.31401360213668333
+      },
+      {
+        "field": "personal",
+        "score": 0.2829262011157502
+      }
+    ],
+    "reasons": [
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.5012605532206001,
+        "aText": "لقب أول في اقتصاد وإدارة الأعمال (تسويق) من جامعة رايخمان | 2020–2024\n \n\n أساس قوي في الاقتصاد الجزئي، الاقتصاد الكلي، التحليل المالي، واستراتيجية الأعمال.\n \n\n تخصص في استراتيجيات التسويق، الحملات الرقمية، سلوك المستهلك، والتسويق القائم على البيانات.\n \n\n المقررات ذات الصلة: الاقتصاد الجزئي، الاقتصاد الكلي، التمويل المؤسسي، التسويق الرقمي، أبحاث التسويق، الاتصالات التسويقية، إدارة نجاح العملاء.",
+        "bText": "محاسب مرخّص لمزاولة مهنة تدقيق الحسابات.\n \n\n حاصل على لقب أول في الاقتصاد والحسابات.\n \n\n حاصل على لقب ثاني في الحسابات.\n \n\n حاصل على شهادة תעודת דירקטורים.\n \n\n حاصل على شهادة הנדסאי עיצוב מדיה."
+      },
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.48837391763601434,
+        "aText": "خريج اقتصاد وادارة اعمال",
+        "bText": "لقب اول وثاني في الحسابات بالاضاف الى رخصة مزاولة مهنة الحسبات + مصمم چرافيكي سابقا"
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تعمل مع شخص لديه خلفية قوية في الاقتصاد، وهو ما يتوافق مع أساسك القوي في هذا المجال. لديكما اهتمام مشترك في مجال الاقتصاد، حيث تتشاركان في بعض المقررات والخبرات المتعلقة بالاقتصاد الجزئي والكلي. لديكما أيضًا مهارات متداخلة في مجال الأعمال، حيث يمكنكما الاستفادة من خبرته في الحسابات وتدقيق الحسابات، في حين يمكنه الاستفادة من خبرتك في استراتيجيات التسويق وسلوك المستهلك.",
+      "en": "You are working with someone who has a strong background in economics, which aligns with your own strong foundation in the field. You both share an interest in economics, where you overlap in some courses and experiences related to micro and macro economics. You both also have complementary skills in business, where you can benefit from his expertise in accounting and auditing, while he can benefit from your expertise in marketing strategies and consumer behavior.",
+      "he": "אתה עובד עם מישהו שיש לו רקע חזק בכלכלה, מה שתואם את היסוד החזק שלך בתחום. שניכם חולקים עניין בכלכלה, שם אתם חופפים בכמה קורסים וחוויות הקשורות לכלכלה מיקרו ומקרו. שניכם גם מחזיקים במיומנויות משלימות בעסקים, שם אתה יכול להרוויח מהתמחות שלו בחשבונאות וביקורת, בעוד שהוא יכול להרוויח מהתמחות שלך באסטרטגיות שיווק והתנהגות צרכנים."
+    },
+    "match_name": {
+      "original": "ولاء صايغ",
+      "en": "Wala Saayegh",
+      "he": "ולאא צייג'"
+    }
+  },
+  "11-15": {
+    "target": {
+      "id": 15,
+      "name": "جورج شقحة"
+    },
+    "match": {
+      "id": 11,
+      "name": "كريم صفوري"
+    },
+    "fieldScores": {
+      "jobTitle": 0.6080418867109932,
+      "academic": 0.47525810762481885,
+      "professional": 0.34055110150959195,
+      "personal": 0.279930891745999
+    },
+    "rankedFields": [
+      {
+        "field": "jobTitle",
+        "score": 0.6080418867109932
+      },
+      {
+        "field": "academic",
+        "score": 0.47525810762481885
+      },
+      {
+        "field": "professional",
+        "score": 0.34055110150959195
+      },
+      {
+        "field": "personal",
+        "score": 0.279930891745999
+      }
+    ],
+    "reasons": [
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.6080418867109932,
+        "aText": "خريج اقتصاد وادارة اعمال",
+        "bText": "مدقق حسابات"
+      },
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.47525810762481885,
+        "aText": "لقب أول في اقتصاد وإدارة الأعمال (تسويق) من جامعة رايخمان | 2020–2024\n \n\n أساس قوي في الاقتصاد الجزئي، الاقتصاد الكلي، التحليل المالي، واستراتيجية الأعمال.\n \n\n تخصص في استراتيجيات التسويق، الحملات الرقمية، سلوك المستهلك، والتسويق القائم على البيانات.\n \n\n المقررات ذات الصلة: الاقتصاد الجزئي، الاقتصاد الكلي، التمويل المؤسسي، التسويق الرقمي، أبحاث التسويق، الاتصالات التسويقية، إدارة نجاح العملاء.",
+        "bText": "لقب أول في الاقتصاد والإدارة – تخصص محاسبة من كلية عيمك يزراعيل\n خريج مدرسة اللاتين – الرينة"
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تعمل في مجال الاقتصاد والإدارة، و كريم صفوري يعمل في مجال التدقيق الحسابي، و هذا يُظهر تشابهًا في المجال العام للشؤون المالية. معك و كريم صفوري خلفية تعليمية متعلقة بالشؤون المالية، مما يسهل عليكما فهم بعضكما البعض. أنتما تتشاركون في مهارات تحليل البيانات و إدارة الموارد المالية، مما يُسهل التعاون بينكما.",
+      "en": "You work in the field of economics and management, and Karim Safouri works in the field of accounting auditing, and this shows a similarity in the general field of financial affairs. You and Karim Safouri have an educational background related to financial affairs, which makes it easy for you to understand each other. You both share skills in data analysis and financial resource management, which facilitates cooperation between you.",
+      "he": "אתה עובד בתחום הכלכלה והניהול, וקארים ספורי עובד בתחום ביקורת חשבונות, וזה מראה דמיון בתחום הכללי של עניינים פיננסיים. לך ולקארים ספורי יש רקע חינוכי הקשור לעניינים פיננסיים, מה שהופך את זה לקל עבורכם להבין אחד את השני. שניכם מחזיקים במיומנויות בניתוח נתונים וניהול משאבים פיננסיים, מה שמקל על השיתוף הפעולה ביניכם."
+    },
+    "match_name": {
+      "original": "كريم صفوري",
+      "en": "Karim Saffouri",
+      "he": "כרים צ'פורי"
+    }
+  }
+}
