@@ -1,5 +1,7 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
+app.use(cors());
 const fs = require('fs');
 const csv = require('csv-parser'); // read CSV files row by row
 const axios = require('axios'); // used to send HTTP requests to FastAPI
