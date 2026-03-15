@@ -778,5 +778,65 @@
       "en": "Karim Saffouri",
       "he": "כרים צ'פורי"
     }
+  },
+  "15-33": {
+    "target": {
+      "id": 15,
+      "name": "جورج شقحة"
+    },
+    "match": {
+      "id": 33,
+      "name": "بشار هريش"
+    },
+    "fieldScores": {
+      "jobTitle": 0.6531094939487582,
+      "academic": 0.4466081462621061,
+      "professional": 0.379536524534911,
+      "personal": 0.4445873236984734
+    },
+    "rankedFields": [
+      {
+        "field": "jobTitle",
+        "score": 0.6531094939487582
+      },
+      {
+        "field": "academic",
+        "score": 0.4466081462621061
+      },
+      {
+        "field": "personal",
+        "score": 0.4445873236984734
+      },
+      {
+        "field": "professional",
+        "score": 0.379536524534911
+      }
+    ],
+    "reasons": [
+      {
+        "field": "jobTitle",
+        "fieldLabel": "Job Title",
+        "score": 0.6531094939487582,
+        "aText": "خريج اقتصاد وادارة اعمال",
+        "bText": "مستشار في مجال الحسابات"
+      },
+      {
+        "field": "academic",
+        "fieldLabel": "Academic Resume",
+        "score": 0.4466081462621061,
+        "aText": "لقب أول في اقتصاد وإدارة الأعمال (تسويق) من جامعة رايخمان | 2020–2024\n \n\n أساس قوي في الاقتصاد الجزئي، الاقتصاد الكلي، التحليل المالي، واستراتيجية الأعمال.\n \n\n تخصص في استراتيجيات التسويق، الحملات الرقمية، سلوك المستهلك، والتسويق القائم على البيانات.\n \n\n المقررات ذات الصلة: الاقتصاد الجزئي، الاقتصاد الكلي، التمويل المؤسسي، التسويق الرقمي، أبحاث التسويق، الاتصالات التسويقية، إدارة نجاح العملاء.",
+        "bText": "حاصلة على لقب اول في إدارة الاعمال والحسابات من جامعة تل ابيب.\n حاصل على شهادة مستشار قروض."
+      }
+    ],
+    "explanation": {
+      "ar": "أنت تقوم بالبحث عن فرص عمل في مجال الإدارة، و بشار هريش يمكن أن يكون شريكًا مثاليًا لك في هذا المجال نظرًا لخبرته في الحسابات. لديكما خلفية قوية في مجال الإدارة والاقتصاد، مما يمكن أن يفتح لكما فرصًا للاستفادة من خبرتكما في المشاريع المشتركة. أنتما تتقاسمان رؤية مشتركة لتحسين الأداء المالي وال إداري.",
+      "en": "You are looking for job opportunities in the field of management, and Bashar Hreish can be an ideal partner for you in this field due to his experience in accounting. You both have a strong background in management and economics, which can open up opportunities for you to utilize your expertise in joint projects. You both share a common vision to improve financial and administrative performance.",
+      "he": "אתה מחפש הזדמנויות עבודה בתחום הניהול, ובשאר חרייש יכול להיות שותף אידיאלי עבורך בתחום זה בשל ניסיונו בחשבונאות. לשניכם יש רקע חזק בניהול וכלכלה, מה שיכול לפתוח בפניכם הזדמנויות לנצל את המומחיות שלכם בפרויקטים משותפים. שניכם חולקים חזון משותף לשפר את הביצועים הפיננסיים והמנהלתיים."
+    },
+    "match_name": {
+      "original": "بشار هريش",
+      "en": "Bashar Hreish",
+      "he": "בשאר ח'ריש"
+    }
   }
 }
