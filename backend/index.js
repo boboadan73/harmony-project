@@ -55,10 +55,10 @@ function loadImagesFromParticipantsCsv() {
 /* ---------- EMBEDDING CLIENT ---------- */
 
 async function getEmbeddings(texts) {
-  const response = await axios.post(
-    'http://localhost:8000/embed',
-    { texts }
-  );
+const response = await axios.post(
+  'https://harmony-ml.onrender.com/embed',
+  { texts }
+);
   return response.data.embeddings;
 }
 
@@ -321,6 +321,8 @@ loadImagesFromParticipantsCsv().catch(err => {
   console.error('❌ Failed to load images from participants.csv:', err);
 });
 
-app.listen(3000, () => {
-  console.log('Server running on port 3000');
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
