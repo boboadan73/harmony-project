@@ -279,39 +279,33 @@ app.get('/api/match/:id', async (req, res) => {
     console.log('Requested match for ID:', targetId);
 
     const matches = await getTopMatches(targetId, 5);
+    console.log(
+  'Image for first match:',
+  matches[0]?.id,
+  imagesById.get(String(matches[0]?.id))
+);
 
     const explainedMatches = await Promise.all(
       matches.map(async (m) => {
         const exp = await explainPair(targetId, m.id);
 
-        // ✅ FIX: normalize explanation (string / object)
-        const explanation = exp?.llmExplanation || exp?.explanation || exp || '';
-
-        // ✅ FIX: normalize name (string / object)
-        const rawName = m.name || '';
-        const translatedName = exp.match_name || {};
-        return {
+                return {
           id: m.id,
-
-          // ---------- NAME ----------
-         name: rawName,
-         name_ar: translatedName.original || rawName || '',
-         name_en: translatedName.en || rawName || '',
-         name_he: translatedName.he || rawName || '',,
-
-          // ---------- MATCH DATA ----------
+          name: m.name,
           score: m.score,
           breakdown: m.breakdown,
 
-          // ---------- WHY MATCH ----------
-          reason: typeof explanation === 'string' ? explanation : '',
-          reason_ar: typeof explanation === 'object' ? explanation.ar || '' : '',
-          reason_en: typeof explanation === 'object' ? explanation.en || '' : '',
-          reason_he: typeof explanation === 'object' ? explanation.he || '' : '',
+          reason: exp.explanation?.ar || null,
+          reason_en: exp.explanation?.en || null,
+          reason_he: exp.explanation?.he || null,
 
-          // ---------- IMAGE ----------
+          // 🔹 חדש – שם מתורגם בנפרד
+          match_name: exp.match_name || null,
+
+
           imageUrl: imagesById.get(String(m.id)) || null
         };
+
       })
     );
 
