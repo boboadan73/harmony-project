@@ -287,26 +287,29 @@ app.get('/api/match/:id', async (req, res) => {
 
     const explainedMatches = await Promise.all(
       matches.map(async (m) => {
-        const exp = await explainPair(targetId, m.id);
+  const exp = await explainPair(targetId, m.id);
+  const explanation = exp?.llmExplanation || exp?.explanation || exp || '';
+  const rawName = m.name || '';
 
-        return {
-          id: m.id,
-          name: m.name,
-          score: m.score,
-          breakdown: m.breakdown,
-          const explanation = exp?.llmExplanation || exp?.explanation || exp || '';
+  return {
+    id: m.id,
 
-return {
-  id: m.id,
-  name: m.name,
-  score: m.score,
-  breakdown: m.breakdown,
-  reason: typeof explanation === 'string' ? explanation : '',
-  reason_ar: typeof explanation === 'object' ? explanation.ar || '' : '',
-  reason_en: typeof explanation === 'object' ? explanation.en || '' : '',
-  reason_he: typeof explanation === 'object' ? explanation.he || '' : '',
-  imageUrl: imagesById.get(String(m.id)) || null
-};                                        
+    name: typeof rawName === 'string' ? rawName : '',
+    name_ar: typeof rawName === 'object' ? rawName.ar || '' : '',
+    name_en: typeof rawName === 'object' ? rawName.en || '' : '',
+    name_he: typeof rawName === 'object' ? rawName.he || '' : '',
+
+    score: m.score,
+    breakdown: m.breakdown,
+
+    reason: typeof explanation === 'string' ? explanation : '',
+    reason_ar: typeof explanation === 'object' ? explanation.ar || '' : '',
+    reason_en: typeof explanation === 'object' ? explanation.en || '' : '',
+    reason_he: typeof explanation === 'object' ? explanation.he || '' : '',
+
+    imageUrl: imagesById.get(String(m.id)) || null
+  };
+})
           imageUrl: imagesById.get(String(m.id)) || null
         };
       })
