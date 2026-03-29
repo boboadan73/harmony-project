@@ -267,6 +267,8 @@ app.get('/api/participants', async (req, res) => {
 const { explainPair } = require('./llmExplanation');
 const { getTopMatchesForExternalTarget } = require('./similarity');
 // Returns top-K most similar participants (NO explanation)
+const { getTopMatchesForExternalTarget } = require('./similarity');
+
 app.get('/api/match/:pid', async (req, res) => {
   try {
     const pid = String(req.params.pid).trim();
@@ -293,11 +295,7 @@ app.get('/api/match/:pid', async (req, res) => {
       `${participant.job || ''} ${participant.academic || ''} ${participant.professional || ''} ${participant.personal || ''}`
     ];
 
-    const embedRes = await axios.post(
-      'http://localhost:8000/embed',
-      { texts }
-    );
-
+    const embedRes = await axios.post('http://localhost:8000/embed', { texts });
     const embeddings = embedRes.data?.embeddings || [];
 
     const target = {
