@@ -268,47 +268,56 @@ const { explainPair } = require('./llmExplanation');
 const { getTopMatches } = require('./similarity');
 
 // Returns top-K most similar participants (NO explanation)
-app.get('/api/match/:id', async (req, res) => {
-  const targetId = String(req.params.id);
+const { getTopMatchesForExternalTarget } = require('./similarity');
 
-  if (Number.isNaN(targetId)) {
-    return res.status(400).json({ error: 'Invalid participant ID' });
-  }
-
+app.get('/api/match/:pid', async (req, res) => {
   try {
-    console.log('Requested match for ID:', targetId);
+    const pid = req.params.pid;
 
-    const matches = await getTopMatches(targetId, 5);
-    console.log(
-      'Image for first match:',
-      matches[0]?.id,
-      imagesById.get(String(matches[0]?.id))
-    );
+    // 1. להביא מה-system backend (Cosmos)
+    const userRes = await fetch(`https://harmony-system-backend.onrender.com/api/participants/${pid}`);
+    const userData = await userRes.json();
 
-    const explainedMatches = await Promise.all(
-      matches.map(async (m) => {
-        const exp = await explainPair(targetId, m.id);
+    const participant = userData.participant;
 
-        return {
-          id: m.id,
-          name: m.name,
-          score: m.score,
-          breakdown: m.breakdown,
-          reason: exp.llmExplanation,
-          imageUrl: imagesById.get(String(m.id)) || null
-        };
-      })
-    );
+    if (!participant) {
+      return res.status(404).json({ error: 'User not found in system backend' });
+    }
 
-    console.log(
-      'RETURNING:',
-      JSON.stringify(explainedMatches[0], null, 2)
-    );
-    console.log('First explained match:', explainedMatches[0]);
+    // 2. ליצור embeddings דרך ML service
+    const texts = [
+      participant.job || '',
+      participant.academic || '',
+      participant.professional || '',
+      participant.personal || '',
+      `${participant.job} ${participant.academic} ${participant.professional} ${participant.personal}`
+    ];
 
-    res.json(explainedMatches);
+    const embedRes = await fetch('https://harmony-ml.onrender.com/embed', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ texts })
+    });
+
+    const embedData = await embedRes.json();
+
+    const target = {
+      id: participant.id,
+      name: participant.name,
+      jobEmb: embedData.embeddings[0],
+      acadEmb: embedData.embeddings[1],
+      profEmb: embedData.embeddings[2],
+      persEmb: embedData.embeddings[3],
+      globEmb: embedData.embeddings[4],
+    };
+
+    // 3. חישוב התאמות (בלי CSV target!)
+    const matches = await getTopMatchesForExternalTarget(target, 5);
+
+    res.json({ matches });
+
   } catch (err) {
-    console.error('Match error:', err);
+    console.error(err);
     res.status(500).json({ error: err.message });
   }
 });
